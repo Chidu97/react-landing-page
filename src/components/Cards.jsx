@@ -21,22 +21,22 @@ const Cards = () => {
             <div className='w-full shadow-xl bg-gray-50 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
                 <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={double} alt="/" />
                 <h2 className='text-2xl font-bold text-center py-8'>2 Users</h2>
-                <p className='text-center font-medium'>$149</p>
+                <p className='text-center font-medium'>$179</p>
                 <div>
-                    <p className='py-2 border-b mx-8 mt-8'>500 GB storage</p>
-                    <p className='py-2 border-b mx-8'>1 Granted User</p>
-                    <p className='py-2 border-b mx-8'>Send up to 2 GB</p>
+                    <p className='py-2 border-b mx-8 mt-8'>1 TB storage</p>
+                    <p className='py-2 border-b mx-8'>2 Granted User</p>
+                    <p className='py-2 border-b mx-8'>Send up to 5 GB</p>
                 </div>
                 <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
             </div>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
                 <img className='w-20 mx-auto mt-[-3rem] bg-white' src={triple} alt="/" />
                 <h2 className='text-2xl font-bold text-center py-8'>Multiple Users</h2>
-                <p className='text-center font-medium'>$149</p>
+                <p className='text-center font-medium'>$199</p>
                 <div>
-                    <p className='py-2 border-b mx-8 mt-8'>500 GB storage</p>
-                    <p className='py-2 border-b mx-8'>1 Granted User</p>
-                    <p className='py-2 border-b mx-8'>Send up to 2 GB</p>
+                    <p className='py-2 border-b mx-8 mt-8'>2 TB storage</p>
+                    <p className='py-2 border-b mx-8'>10 Granted User</p>
+                    <p className='py-2 border-b mx-8'>Send up to 10 GB</p>
                 </div>
                 <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
             </div>
